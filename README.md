@@ -1,16 +1,18 @@
 # Spring Boot File Upload Example
 
-This is an example project for a file upload in Spring Boot `3.5.3`. Manage profiles with a resume in PDF or DOC format in a Thymeleaf frontend. Implementation details:
+This is an example project for a file upload in Spring Boot `3.5.4`. Manage profiles with a resume in PDF or DOC format
+in a Thymeleaf frontend. Implementation details:
 
 * Separate table `FileContent` for storing file content
-* The entity `Profile` only contains a JSON object `FileData` with the name and UID of the file
+* The entity `Profile` contains a JSON object `FileData` with the name and UID of the file
 * The `FileDataService` provides utility functions for uploads and downloads
-* The `ConverterConfig` registers a converter for transforming uploads from `MultipartFile` to a `FileData` object
+* The `ConverterConfig` registers a converter for transforming uploads from `MultipartFile` to a `FileData` object transparently
 * The annotation `ValidFileType` ensures the correct file type
 
 ![File Upload Example](https://s3-eu-central-1.amazonaws.com/bootify-prod/ext/img/templates/fileUploadExample.png)
 
-This project was created using [Bootify.io](https://bootify.io). Choose your preferred frontend and preferences, **create your own database schema including file fields, and get a working Spring Boot application** directly in your browser.
+This project was created using [Bootify.io](https://bootify.io). Choose your preferred frontend and preferences, **create
+your own database schema including file fields, and get a working Spring Boot application** directly in your browser.
 
 ## Development
 
