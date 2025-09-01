@@ -1,6 +1,6 @@
 # Spring Boot File Upload Example
 
-This is an example project for a file upload in Spring Boot `3.5.4`. Manage profiles with a resume in PDF or DOC format
+This is an example project for a file upload in Spring Boot `3.5.5`. Manage profiles with a resume in PDF or DOC format
 in a Thymeleaf frontend. Implementation details:
 
 * Separate table `FileContent` for storing file content
