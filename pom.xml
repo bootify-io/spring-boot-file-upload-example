@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.5.5</version>
+        <version>3.5.6</version>
         <relativePath /><!-- lookup parent from repository -->
     </parent>
     <groupId>io.bootify</groupId>
@@ -46,7 +46,7 @@
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>bootstrap</artifactId>
-            <version>5.3.7</version>
+            <version>5.3.8</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
