@@ -1,6 +1,6 @@
 # Spring Boot File Upload Example
 
-This is an example project for a file upload in Spring Boot `3.5.6`. Uploads can be part of any form using DTOs. In this example you can manage profiles with a resume in PDF or DOC format in a Thymeleaf frontend. Implementation details:
+This is an example project for a file upload in Spring Boot `3.5.7`. Uploads can be part of any form using DTOs. In this example you can manage profiles with a resume in PDF or DOC format in a Thymeleaf frontend. Implementation details:
 
 * Separate table `FileContent` for storing file content
 * The entity `Profile` contains a JSON object `FileData` with the name and UID of the file
