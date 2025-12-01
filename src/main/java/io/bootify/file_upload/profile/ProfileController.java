@@ -1,6 +1,5 @@
 package io.bootify.file_upload.profile;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.bootify.file_upload.file.FileData;
 import io.bootify.file_upload.file.FileDataService;
 import io.bootify.file_upload.util.JsonStringFormatter;
@@ -19,6 +18,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import tools.jackson.databind.ObjectMapper;
 
 
 @Controller
