@@ -5,7 +5,7 @@
 function handleEvent(eventType, selector, handler) {
   document.addEventListener(eventType, function(event) {
     if (event.target.matches(selector + ', ' + selector + ' *')) {
-      handler.apply(event.target.closest(selector), arguments);
+      handler.apply(event.target.closest(selector), [event]);
     }
   });
 }
