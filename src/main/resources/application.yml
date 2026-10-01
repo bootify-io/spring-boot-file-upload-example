@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: file-upload
   datasource:
     url: ${JDBC_DATABASE_URL:jdbc:hsqldb:mem:file-upload}
     username: ${JDBC_DATABASE_USERNAME:sa}
